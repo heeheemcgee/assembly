@@ -82,7 +82,7 @@ func BuildOverlapNetwork() {
 		sequencedContigs[i] = ConsensusFromMultAlign(columnCounts, voteThreshold)
 	}
 
-	fmt.Println("We made it! Contigs converted to strings.")
+	fmt.Println("We made it! Contigs converted to strings. \n You can find the new .fasta files in the Output folder.")
 
 	// how can we determine if our inferred genome is close to the original?
 	// let's write our genome and our contigs to a file

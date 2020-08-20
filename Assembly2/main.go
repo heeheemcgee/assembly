@@ -33,7 +33,6 @@ func BuildOverlapNetwork() {
 	reads := SimulateReadsMessy(genome, readLength, probability, substitutionErrorRate, insertionErrorRate, deletionErrorRate)
 
 	fmt.Println("Reads simulated. We have", len(reads), "total reads.")
-	fmt.Println("Making overlap network.")
 
 	//need sequence alignment parameters
 	match := 1.0
